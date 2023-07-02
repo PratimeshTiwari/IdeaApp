@@ -5,7 +5,7 @@ const dbConfig = require('./configs/db.config');
 const userModel = require('./models/user.model');
 const bcrypt = require('bcrypt');
 
-const uri = "mongodb+srv://ideaApp:aaaa1111@cluster0.wgtzb6t.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://ideaApp:<password>@cluster0.wgtzb6t.mongodb.net/?retryWrites=true&w=majority";
 
 const app = express();
 
